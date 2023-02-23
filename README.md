@@ -1,24 +1,12 @@
-# README
+# aunty-has-spoken
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## PROCESS
+- create a github repo with .gitignore and README.md
+- clone repo
+- create a rails app
+- remove .git from rails app so it can be tracked by the github repo
+- create a db
+- enable rails app to compile javascript
+- install react files/folders
+- render App.js in the Home views
+- add scss
