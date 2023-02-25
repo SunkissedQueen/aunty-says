@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby File.read('.ruby-version').strip
+ruby "3.0.0"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4", ">= 7.0.4.2"
@@ -65,10 +65,12 @@ group :development do
 end
 
 
+gem "rspec-rails", "~> 6.0"
+
 gem "webpacker", "~> 5.4"
 
 gem "react-rails", "~> 2.6"
 
-gem "bootstrap", "~> 5.2"
+gem "devise", "~> 4.8"
 
-gem "devise", "~> 4.9"
+gem "bootstrap", "~> 5.2"
