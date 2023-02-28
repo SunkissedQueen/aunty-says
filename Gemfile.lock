@@ -98,7 +98,6 @@ GEM
     erubi (1.12.0)
     execjs (2.8.1)
     ffi (1.15.5)
-    ffi (1.15.5-x64-unknown)
     globalid (1.1.0)
       activesupport (>= 5.0)
     i18n (1.12.0)
@@ -138,6 +137,10 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.14.2)
       mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
+    nokogiri (1.14.2-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.14.2-x86_64-linux)
       racc (~> 1.4)
     orm_adapter (0.5.0)
     pg (1.4.6)
@@ -251,7 +254,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
-  unknown
+  ruby
   x86_64-linux
 
 DEPENDENCIES
